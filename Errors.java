@@ -9,7 +9,7 @@ public class Errors{
 
     int weight = 90;
     int volume = 8;
-    double density = (double)(weight/volume); // Should be the correct precise value.
+    double density = (double)(weight)/(double)(volume); // Should be the correct precise value.
 
     System.out.println("I am a heavy " + animal + " because I have a density of " + density + " kilograms per cubic centimeter.");
 
